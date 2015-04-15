@@ -1,0 +1,24 @@
+<html>
+	<head>
+		<title>
+			main()
+		</title>
+
+	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	    <script type="text/javascript">
+	    	function print_inline(str){
+	    		$('body').append(str);   		
+	    	}
+	    	function print(str){
+	    		print_inline(str);
+	    		print_inline('<br/>');
+	    	}
+	    </script>
+		<script src='code.js'></script>
+	</head>
+	<body>
+	    <script type="text/javascript">
+	    	$(document).ready(main);
+	    </script>
+	</body>
+</html>
